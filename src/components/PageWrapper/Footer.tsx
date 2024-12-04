@@ -12,7 +12,7 @@ const Footer = () => {
       <footer className="footer-body">
         <p className="footer-links">
           <Link to={'/'}><FaHouse /> Główna</Link> 
-          <a href='https://github.com/pFornagiel'><FaCode/> Source</a>
+          <a href='https://github.com/pFornagiel/poradnik-calkowania'><FaCode/> Source</a>
         </p>
         <p className='acknowledgment'>Paweł Fornagiel - Analiza I 2024/25</p>
       </footer>
