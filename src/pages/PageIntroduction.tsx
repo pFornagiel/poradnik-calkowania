@@ -93,7 +93,7 @@ const PageIntroduction = () => {
         sposobów na szybkie rozwiązywanie bardziej skomplikowanych całek.
       </p>
 
-      <LinkButton icon={<FaFilePdf/>} href='/pdf/Integrals.pdf'>Karty wzorów całkowych</LinkButton>
+      <LinkButton icon={<FaFilePdf/>} href='/poradnik-calkowania/pdf/Integrals.pdf'>Karty wzorów całkowych</LinkButton>
       
       <NextPageButton page={'/podstawianie'}>Całkowanie przez podstawianie</NextPageButton>
     </>
