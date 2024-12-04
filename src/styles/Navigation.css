@@ -1,0 +1,48 @@
+.navigation-body{
+  width: 100%;
+  height: 1.5rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.navigation-button{
+  background-color: white;
+  aspect-ratio: 1/1;
+  height: 100%;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  
+  fill: var(--black);
+  color:black;
+  svg{
+    width: 100%;
+    height: 100%;
+  }
+
+  & :hover{
+    fill:var(--gray)
+  }
+}
+
+.navigation-logo{
+  cursor: pointer;
+  color: var(--black);
+}
+.navigation-logo:hover{
+  color: var(--gray);
+}
+
+.inactive{
+  pointer-events: none;
+  opacity: 0;
+}

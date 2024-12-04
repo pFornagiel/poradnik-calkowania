@@ -1,0 +1,22 @@
+.image-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.image-description{
+  font-size:medium;
+  margin-bottom: 1rem;
+  color: var(--gray)
+}
+
+@media only screen  and (max-width: 620px) {
+  .image-description {
+    font-size: small;
+  }
+}

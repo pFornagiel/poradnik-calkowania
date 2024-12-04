@@ -1,0 +1,24 @@
+.link-button{
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  font-size: large;
+  color: var(--primary);
+
+  & h3{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  & svg{
+    margin-right: 0.5em;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  & a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,24 @@
+.box-text-body{
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  /* shadow */
+  /* box-shadow: var(--shadow); */
+}
+
+.box-text-border{
+  border: solid 2px transparent;
+}
+
+.box-text-notice{
+  border-left: solid 0.5rem transparent;
+}
+
+.box-text-title{
+  font-weight: 600;
+  font-size: larger;
+  padding-bottom: 0.5rem;
+  color: hsl(204, 61%, 53%)
+}

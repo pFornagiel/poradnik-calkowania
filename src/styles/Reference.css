@@ -1,0 +1,48 @@
+.floating-wrapper{
+  position: relative;
+  width: 100%;
+}
+
+.floating-box{
+  position: absolute;
+  translate: -50%;
+  left: 50%;
+  bottom: 150%;
+  width: max-content;
+  max-width: 90vw;
+  height: fit-content;
+  padding: 0.5rem 1rem;
+  border: transparent 1px solid;
+  z-index: 3;
+
+  box-shadow: var(--shadow);
+  transition: opacity 0.2s ease-out;
+
+}
+
+.hidden{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visible{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.floating-text{
+  cursor: pointer;
+  color: var(--reference);
+}
+
+.floating-text:hover{
+  color: var(--reference-hover)
+}
+
+@media only screen and (max-width: 700px) {
+  .floating-box{
+    position: fixed;
+    bottom: 5vh;
+
+  }
+}
