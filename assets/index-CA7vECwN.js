@@ -349,7 +349,7 @@ l0,-`+(r+144)+`c-2,-159.3,-10,-310.7,-24,-454c-53.3,-528,-210,-949.7,
         \left| \begin{matrix} \overset{\text{\color{${ni}}{różczniczkujemy}}}{f(x) = \arctan{(x)}} & 
         \overset{\text{\color{red}{całkujemy}}}{g'(x) = x^2}  \\
         f'(x) = \frac{1}{1+x^2} & g(x) = \frac{x^3}{3} \, dx \end{matrix} \right| = 
-        \frac{x^3\arctan{(x)}}{3} - \frac{1}{3} \int \frac{x^3}{1+x^2} \, dx $$`}),k.jsxs("p",{children:["Dzięki całkowaniu przez części doprowadziliśmy całkę do formy, którą możemy rozwiązać odpowiednio manipulująć pierwiastkiem pod całką i używając podstawiania (a dokładniej ",k.jsx(b0,{to:"/podstawianie",children:" włączenia pod różniczkę"})," )."]}),k.jsx(W,{children:String.raw`$$\begin{gather*}
+        \frac{x^3\arctan{(x)}}{3} - \frac{1}{3} \int \frac{x^3}{1+x^2} \, dx $$`}),k.jsxs("p",{children:["Dzięki całkowaniu przez części doprowadziliśmy całkę do formy, którą możemy rozwiązać odpowiednio manipulując pierwiastkiem pod całką i używając podstawiania (a dokładniej ",k.jsx(b0,{to:"/podstawianie",children:" włączenia pod różniczkę"})," )."]}),k.jsx(W,{children:String.raw`$$\begin{gather*}
         \int \frac{x^3}{1+x^2} \, dx =
         \int x \cdot \frac{x^2}{1+x^2} \, dx =
         \int x \cdot \left( \frac{1+x^2}{1+x^2} - \frac{1}{1+x^2} \right) \, dx = \\[20pt]
