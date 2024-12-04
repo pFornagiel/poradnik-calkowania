@@ -56,7 +56,7 @@ const PageParts = () => {
 
 
       <p>
-        Dzięki całkowaniu przez części doprowadziliśmy całkę do formy, którą możemy rozwiązać odpowiednio manipulująć pierwiastkiem 
+        Dzięki całkowaniu przez części doprowadziliśmy całkę do formy, którą możemy rozwiązać odpowiednio manipulując pierwiastkiem 
         pod całką i używając podstawiania (a dokładniej <Link to='/podstawianie'> włączenia pod różniczkę</Link> ).
       </p>
 
