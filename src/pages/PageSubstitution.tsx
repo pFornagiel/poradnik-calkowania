@@ -133,7 +133,7 @@ const PageSubstitution = () => {
       
       <Latex>
         {String.raw`$$
-          \int \frac{\sin\left(x\right)}{\cos^{2}\left(x\right) + 1} \, dx = \int \frac{1}{1 + \cos^{2}\left(x\right)} \cdot \left[-\sin\left(x\right) \right] \, dx = -\arctan\left(\cos\left(x\right)\right) + C
+          \int \frac{\sin\left(x\right)}{\cos^{2}\left(x\right) + 1} \, dx = -\int \frac{1}{1 + \cos^{2}\left(x\right)} \cdot \left[-\sin\left(x\right) \right] \, dx = -\arctan\left(\cos\left(x\right)\right) + C
         $$`}
       </Latex>
       

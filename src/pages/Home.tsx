@@ -23,7 +23,7 @@ const Home = () => {
       </div>
       <p style={{textAlign: 'center'}}>
         <i>
-          Powyższe materiały zostały stworzone na podstawie skryptów z wykładów z Analizy Matematycznej I dr Frydrycha oraz dr hab. Marcina Moszyńskiego, ćwiczeń rachunkowych z mgr Bratuszewską oraz OpenAGH.
+          Powyższe materiały zostały stworzone na podstawie skryptów z wykładów z Analizy Matematycznej I dra Wacława Frydrycha i dra hab. Marcina Moszyńskiego, ćwiczeń rachunkowych z mgr Bratuszewską oraz OpenAGH.
         </i>
       </p>
     </>
