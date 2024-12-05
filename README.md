@@ -1,6 +1,6 @@
 # Poradnik Całkowania | Integration Tutorial 📈
 
-Single-page application serving as notes on basic integration methods, with a quick overview of fundamental techniques to find antiderivatives. It gives a quick overview of basic techniques for finding antiderivatives, good for brushing up some calculus concepts.
+Single-page application serving as notes on basic integration methods, describing fundamental techniques to find antiderivatives. It gives a quick overview of basic techniques for finding antiderivatives, good for brushing up some calculus concepts.
 
 This is a small personal project, available for use on [Github Pages](https://pfornagiel.github.io/poradnik-calkowania/).
 
